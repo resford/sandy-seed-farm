@@ -13,14 +13,14 @@ body {
   background-color: #fcba03;
   color: #fff;
   position: relative;
-  background: transparent;
+  background: rgb(245, 201, 3);
 }
 
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
-  background-size: cover;
+  /*background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background-size: cover;*/
   left: 0;
   right: 0;
   top: 0;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #6203a1;
   padding-bottom: 6px;
 }
 
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #faf608;
 }
 
 @media (max-width: 992px) {
