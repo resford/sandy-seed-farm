@@ -3,13 +3,23 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --color-rust: #d13f11;
+  --color-lime: #c5ff8b;
+  --color-green: #0dad31;
+  --color-babypuke: #b8d30a;
+  --color-orange: #ef8411;
+  --color-darkrust: #411305;
+
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #272829;
+  font-family: "Averia Serif Libre", cursive;
+  color: var(--color-rust);
 }
 
 a {
-  color: #149ddd;
+  color: var(--color-rust);
 }
 
 a:hover {
@@ -18,7 +28,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Averia Serif Libre", cursive;
 }
 
 /*--------------------------------------------------------------
@@ -32,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
+  background: var(--color-lime);
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -47,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: var(--color-lime);
   transition: background 0.2s ease-in-out;
 }
 
@@ -64,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: var(--color-darkrust);
   overflow-y: auto;
 }
 
@@ -72,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px black;
 }
 
 #header .profile h1 {
@@ -82,19 +92,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Averia Serif Libre", cursive;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: #fff;
+  color: var(--color-green);
   text-decoration: none;
 }
 
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
-  color: #fff;
+  background: var(--color-lime);
+  color: var(--color-green);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -106,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: var(--color-green);
   color: #fff;
   text-decoration: none;
 }
@@ -146,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: var(--color-lime);
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -156,16 +166,16 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: var(--color-babypuke);
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-orange);
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: var(--color-rust);
 }
 
 /* Mobile Navigation */
@@ -239,14 +249,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Averia Serif Libre", cursive;
 }
 
 #hero p span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid var(--color-rust);
 }
 
 @media (min-width: 1024px) {
@@ -366,7 +376,7 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Averia Serif Libre", cursive;
   font-size: 14px;
   color: #122f57;
 }
@@ -377,7 +387,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Averia Serif Libre", cursive;
   transition: ease-in-out 0.3s;
 }
 
@@ -400,7 +410,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Averia Serif Libre", cursive;
   color: #050d18;
 }
 
@@ -443,7 +453,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Averia Serif Libre", cursive;
   color: #050d18;
   margin-bottom: 10px;
 }
