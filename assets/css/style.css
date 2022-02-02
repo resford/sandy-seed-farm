@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px black;
+  border: 8px solid var(--color-lime);
 }
 
 #header .profile h1 {
