@@ -9,7 +9,7 @@
   --color-green: #0dad31;
   --color-babypuke: #b8d30a;
   --color-orange: #ef8411;
-  --color-darkrust: #411305;
+  --color-darkrust: #294225;
 
 }
 
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid var(--color-lime);
+  
 }
 
 #header .profile h1 {
