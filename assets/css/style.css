@@ -10,11 +10,11 @@
   --color-babypuke: #b8d30a;
   --color-orange: #ef8411;
   --color-darkrust: #294225;
-
+  --primaryfont: 'Yellowtail', cursive;
 }
 
 body {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: var(--primaryfont);
   color: var(--color-rust);
 }
 
@@ -28,7 +28,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Averia Serif Libre", cursive;
+  font-family: var(--primaryfont);
 }
 
 /*--------------------------------------------------------------
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: var(--primaryfont);
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
@@ -249,11 +249,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: var(--primaryfont);
 }
 
 #hero p span {
-  color: #fff;
+  color: rgb(8, 40, 182);
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #ffeb3b
@@ -376,7 +376,7 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: var(--primaryfont);
   font-size: 14px;
   color: #122f57;
 }
@@ -387,7 +387,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: var(--primaryfont);
   transition: ease-in-out 0.3s;
 }
 
@@ -410,7 +410,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: var(--primaryfont);
   color: #050d18;
 }
 
@@ -453,7 +453,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: var(--primaryfont);
   color: #050d18;
   margin-bottom: 10px;
 }
