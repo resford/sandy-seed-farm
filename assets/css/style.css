@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgb(226, 61, 11);
 }
 
 #hero p {
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid var(--color-rust);
+  border-bottom: 3px solid #ffeb3b
 }
 
 @media (min-width: 1024px) {
@@ -286,7 +286,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #e7faed;
 }
 
 .section-title {
